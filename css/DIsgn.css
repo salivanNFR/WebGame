@@ -1,0 +1,159 @@
+﻿body {
+}
+.Login {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    outline: none;
+}
+    .Login:focus {
+        border: none;
+        border-bottom: 2px solid #b73ae0;
+    }
+.Button_Go {
+    position: relative;
+    width: 70px;
+    left: 160px;
+    color: #2c084d;
+    background: #dcb5ff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #ae54ff;
+}
+.li1:hover {
+    background-color: #d15138;
+
+}
+.Button_Delite {
+    color: red;
+    width:20px;
+    height:20px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    padding: 2px;
+}
+.Button_Go:hover {
+        background: #ae54ff;
+        text-decoration:none;
+        color:black;
+ }
+.Button_Chs {
+    position:relative;
+    margin:5px;
+    background-color:white;
+    color:black;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #d15138;
+}
+.Button_Chs:hover {
+        background: #d15138;
+        color: white;
+}
+.Button_Again {
+    position: relative;
+    top:10px;
+    margin: 5px;
+    padding-top:5px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #d15138;
+}
+
+    .Button_Again:hover {
+        background: #d15138;
+        color: white;
+        text-decoration:none;
+    }
+
+.loginBack {
+    
+    background: url(../img/back.jpg);
+   background-size:cover 
+}
+.GameBack {
+    background: url('../img/fon_6ppaa (1).jpg');
+   /* background-size: cover;*/
+    
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.Start {
+    margin: 0 auto;
+    background-color: white;
+    overflow: auto;
+    position: center;
+    width: 450px;
+    height: 260px;
+    box-shadow: 0.4em 0.4em 5px rgba(236, 169, 255,0.5);
+    border: 20px solid;
+    border-color: mediumpurple;
+    border-radius: 30px;
+}
+.categ {
+    position: absolute;
+    background-color: white;
+    right: 0px;
+    width: 220px;
+    height: 350px;
+    border: 10px solid;
+    border-color: #d15138;
+    border-radius: 10px;
+}
+.details summary:hover {
+    color: #b73ae0;
+}
+.game{
+    position:relative;
+    left:120px;
+}
+.Chose {
+    position: relative;
+    top: 15px;
+}
+.ph1 {
+    margin: 15px;
+    width: 120px;
+    height: 220px;
+    background-color: #d15138;
+    border: 10px solid;
+    border-color: #d15138;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.phblock {
+    width: 780px;
+    height: 1340px;
+    border: 5px solid #d15138;
+    border-radius: 10px;
+}
+.invisibleDel {
+    display: none ;
+}
+.invisibleChs {
+    display:none;
+}
+.chs {
+    border: 3px solid;
+    border-color: #00eded;
+    border-radius: 10px;
+    margin-top: 12px;
+    color: #00eded;
+    position: relative;
+    text-align: center;
+}
+    .chs:hover {
+        background: #00eded;
+        
+        color: black;
+    }
+.invisible1{
+    
+    display:none;
+}
+.Chosen{
+    background-color: rebeccapurple;
+}

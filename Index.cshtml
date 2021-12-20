@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<body class="loginBack">
+
+    <div class="Start">
+
+
+
+        <form method="post">
+
+            <label class="Autoriation">
+
+                <strong class="game">Игра "Угадай кто?"</strong>
+
+            </label>
+
+            <p>
+                <strong >Никнейм:</strong>
+                <input class="Login" placeholder="Введите никнейм" value="@Model.NickName" maxlength="25" size="40" name="Login">
+            </p>
+
+            <a   href="game?Nickname=@Model.NickName" class="Button_Go"  >Начать</a>
+            <details class="details">
+                <summary>Правила</summary>
+                <p>
+                    1. Выбрать тему в которой вы хотите играть.
+                   <p> 2. Вам будет выдано 24 карточки с картинками на выбранною тему.
+                  <p>  3. Выберете карточку с которой хотите играть (которую будет угадывать ваш противник, а вы будете угадывать карточку противника).
+                   <p> 4. Поочередно задавайте вопросы вашему противнику(ПРИМЕР: Если тема карточек сериала, то вопрос может быть такой "Этот сериал про супергероев ?").
+                   <p> 5. После ответа на ваш вопрос, вы убираете те карточки которые не соответствуют той, что у противника.
+                    <p>6. Тот кто первый угадает карточку противника, побеждает.
+                </p>
+            </details>
+
+        </form>
+
+    </div>
+
+</body>
