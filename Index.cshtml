@@ -1,8 +1,4 @@
-﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
+
 
 <body class="loginBack">
 
@@ -20,10 +16,10 @@
 
             <p>
                 <strong >Никнейм:</strong>
-                <input class="Login" placeholder="Введите никнейм" value="@Model.NickName" maxlength="25" size="40" name="Login">
+                <input class="Login" placeholder="Введите никнейм"  maxlength="25" size="40" name="Login">
             </p>
 
-            <a   href="game?Nickname=@Model.NickName" class="Button_Go"  >Начать</a>
+            <a   href="game" class="Button_Go"  >Начать</a>
             <details class="details">
                 <summary>Правила</summary>
                 <p>
